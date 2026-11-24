@@ -1,6 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
+// Single fortune for an AI agent, written to /output/entry.txt.
 const OUT_PATH = "/output/entry.txt";
 
 function buildLine(): string {
